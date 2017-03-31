@@ -4,8 +4,8 @@
 {
   "$class": "org.acme.vehicle.auction.Auctioneer",
   "email": "email:0250",
-  "firstName": "asleep arrow military",
-  "lastName": "explain current jar tired"
+  "firstName": "Daniel",
+  "lastName": "Selman"
 }
 ```
 
@@ -13,34 +13,34 @@
 ```
 {
   "$class": "org.acme.vehicle.auction.Member",
-  "balance": 171.65,
+  "balance": 1710000.65,
   "email": "email:1871",
-  "firstName": "frog ability",
-  "lastName": "aware least park chose tropical"
+  "firstName": "Yuan",
+  "lastName": "Zhao"
 }
 
 {
   "$class": "org.acme.vehicle.auction.Member",
   "balance": 3100000.579,
   "email": "email:2026",
-  "firstName": "cup boat without anyway design",
-  "lastName": "distance might sing"
+  "firstName": "Robert",
+  "lastName": "Mcduffy"
 }
 
 {
   "$class": "org.acme.vehicle.auction.Member",
   "balance": 13600000.851,
   "email": "email:3440",
-  "firstName": "money invented had came",
-  "lastName": "best throat express"
+  "firstName": "David",
+  "lastName": "Helan"
 }
 
 {
   "$class": "org.acme.vehicle.auction.Member",
   "balance": 18900000.181,
   "email": "email:4558",
-  "firstName": "beside table boy",
-  "lastName": "office"
+  "firstName": "Melcon",
+  "lastName": "Fernando"
 }
 
 ```
@@ -59,7 +59,7 @@
 {
   "$class": "org.acme.vehicle.auction.Vehicle",
   "vin": "vin:4891",
-  "owner": "email:1871"
+  "owner": "email:3440"
 }
 ```
 
@@ -69,7 +69,7 @@
   "$class": "org.acme.vehicle.auction.VehicleListing",
   "listingId": "listingId:4814",
   "reservePrice": 123000.65,
-  "description": "science limited proper camp letter",
+  "description": "",
   "state": "RESERVE_NOT_MET",
   "offers": [
     {
@@ -108,7 +108,7 @@
   "$class": "org.acme.vehicle.auction.VehicleListing",
   "listingId": "listingId:5420",
   "reservePrice": 520000.459,
-  "description": "save",
+  "description": "",
   "state": "RESERVE_NOT_MET",
   "offers": [
     {
