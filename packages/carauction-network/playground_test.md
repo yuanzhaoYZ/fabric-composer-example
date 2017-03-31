@@ -21,7 +21,7 @@
 
 {
   "$class": "org.acme.vehicle.auction.Member",
-  "balance": 31.579,
+  "balance": 3100000.579,
   "email": "email:2026",
   "firstName": "cup boat without anyway design",
   "lastName": "distance might sing"
@@ -29,7 +29,7 @@
 
 {
   "$class": "org.acme.vehicle.auction.Member",
-  "balance": 136.851,
+  "balance": 13600000.851,
   "email": "email:3440",
   "firstName": "money invented had came",
   "lastName": "best throat express"
@@ -37,7 +37,7 @@
 
 {
   "$class": "org.acme.vehicle.auction.Member",
-  "balance": 189.181,
+  "balance": 18900000.181,
   "email": "email:4558",
   "firstName": "beside table boy",
   "lastName": "office"
@@ -68,22 +68,22 @@
 {
   "$class": "org.acme.vehicle.auction.VehicleListing",
   "listingId": "listingId:4814",
-  "reservePrice": 123.65,
+  "reservePrice": 123000.65,
   "description": "science limited proper camp letter",
   "state": "RESERVE_NOT_MET",
   "offers": [
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:1896",
-      "bidPrice": 217.261,
+      "bidPrice": 17000.261,
       "listing": "listingId:4814",
-      "member": "email:2026",
+      "member": "email:1871",
       "timestamp": "1991-01-03T19:54:58.545Z"
     },
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:2500",
-      "bidPrice": 6.623,
+      "bidPrice": 60000.623,
       "listing": "listingId:4814",
       "member": "email:2026",
       "timestamp": "1972-01-15T15:37:59.016Z"
@@ -91,9 +91,9 @@
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:7772",
-      "bidPrice": 206.454,
+      "bidPrice": 56000.454,
       "listing": "listingId:4814",
-      "member": "email:2026",
+      "member": "email:3440",
       "timestamp": "1970-03-21T17:25:54.427Z"
     }
   ],
@@ -107,14 +107,14 @@
 {
   "$class": "org.acme.vehicle.auction.VehicleListing",
   "listingId": "listingId:5420",
-  "reservePrice": 52.459,
+  "reservePrice": 520000.459,
   "description": "save",
-  "state": "FOR_SALE",
+  "state": "RESERVE_NOT_MET",
   "offers": [
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:8386",
-      "bidPrice": 221.841,
+      "bidPrice": 210000.841,
       "listing": "listingId:5420",
       "member": "email:2026",
       "timestamp": "1990-10-31T04:03:42.637Z"
@@ -122,15 +122,15 @@
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:1985",
-      "bidPrice": 142.392,
+      "bidPrice": 142000.392,
       "listing": "listingId:5420",
-      "member": "email:2026",
+      "member": "email:1871",
       "timestamp": "2002-10-13T00:12:47.202Z"
     },
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "transactionId:0110",
-      "bidPrice": 86.035,
+      "bidPrice": 60000.035,
       "listing": "listingId:5420",
       "member": "email:2026",
       "timestamp": "1990-03-24T07:28:08.213Z"
@@ -138,9 +138,9 @@
     {
       "$class": "org.acme.vehicle.auction.Offer",
       "transactionId": "c50fa09c-ebef-4710-8b1d-b1c1aa3080b8",
-      "bidPrice": 76.679,
+      "bidPrice": 70000.679,
       "listing": "listingId:5420",
-      "member": "email:2026",
+      "member": "email:3440",
       "timestamp": "2017-03-31T01:32:52.205Z"
     }
   ],
@@ -151,13 +151,23 @@
 ## Transaction
 
 ### Bid
-#### Reser
+#### Under reserve price
 ```
 {
   "$class": "org.acme.vehicle.auction.Offer",
   "bidPrice": 76.679,
   "listing": "listingId:5420",
-  "member": "email:2026"
+  "member": "email:4558"
+}
+```
+
+#### Beyond reserve price
+```
+{
+  "$class": "org.acme.vehicle.auction.Offer",
+  "bidPrice": 143000,
+  "listing": "listingId:4814",
+  "member": "email:4558"
 }
 ```
 
