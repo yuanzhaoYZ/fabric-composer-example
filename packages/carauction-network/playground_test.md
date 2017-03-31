@@ -70,7 +70,7 @@
   "listingId": "listingId:4814",
   "reservePrice": 123000.65,
   "description": "",
-  "state": "RESERVE_NOT_MET",
+  "state": "FOR_SALE",
   "offers": [
     {
       "$class": "org.acme.vehicle.auction.Offer",
@@ -109,7 +109,7 @@
   "listingId": "listingId:5420",
   "reservePrice": 520000.459,
   "description": "",
-  "state": "RESERVE_NOT_MET",
+  "state": "FOR_SALE",
   "offers": [
     {
       "$class": "org.acme.vehicle.auction.Offer",
@@ -176,6 +176,6 @@
 ```
 {
   "$class": "org.acme.vehicle.auction.CloseBidding",
-  "listing": "listingId:5420"
+  "listing": "listingId:4814"
 }
 ```
